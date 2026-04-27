@@ -1,0 +1,44 @@
+Carleton College Cowling Arboretum Spring Bird Count,,,,,,,,,,,,,,,,,,,,,,,,,
+
+"The spring bird count was initiated in 2000, and conducted 2000-2004.  After a break of a few years it was taken up again in 2008.  Typically the survey is conducted on  the 7th Saturday of the term . Participants meet at 6:00 a.m. at the Arboretum Office, completing the survey by 8:30 - 9:00. In the first years of the survey, participants carried out the survey according to the sequence on the map (point 1, point 2, etc. in a loop as marked by permanently marked points along the trails. Starting in 2009, the participants divided into two groups after point 3 where the loop begins, and moved in opposite directions along the loop, meeting at point 10 near Best Woods. This assures that later points are surveyed early in the morning, when bird activity is still high, so this will continue to be the procedure in the future.
+At each point, participants listen for two minutes and record the number of all species of bird they hear or see. (Prior to 2012 the listening period was one minute.) Common species are assigned to individuals so that only one person need focus on counting individuals of that particular species.  After each two minute listening period the group discusses what what observed, and a data keeper recordss the number of each species of bird observed at that stop. Additionally, someone  in each group who is especially adept at bird identification keeps a  list of all the species they see or hear, or are reported by  other members of their group  at any time during the count, including while walking between points. This master list does not track numbers of each species, only a total number of species seen and heard. The master lists are then combined to determine a total species list for the count.
+",,,,,,,,,,,,,,,,,,,,,,,,,
+2019 count was canceled due to poor weather.,,,,,,,,,,,,,,,,,,,,,,,,,
+"Data sheets are reviewed at the end of the count for legibility prior to the departure of the data recorders, and scanned immediatley to avoid loss of data.",,,,,,,,,,,,,,,,,,,,,,,,,
+
+
+Worksheets:,,,,,,,,,,,,,,,,,,,,,,,,,
+MOU Checklist =  a list of all birds recognized by the Minnesota Ornithologists' Union as having been observed in Minnesota,,,,,,,,,,,,,,,,,,,,,,,,,
+Main = All spring bird count data to date,,,,,,,,,,,,,,,,,,,,,,,,,
+Years = Data from the year indicated,,,,,,,,,,,,,,,,,,,,,,,,,
+
+,,,,,,,,,,,,,,,,,,,,,,,,,
+"Column headings for the ""Main"" worksheet:",,,,,,,,,,,,,,,,,,,,,,,,,
+MOU= An abitrary number assigned by Mark McKone to help be able to sort the data,,,,,,,,,,,,,,,,,,,,,,,,,
+"Year = the number of birds of that species observed during the count that year, or if a ""p"" an indication that the bird species was observed during the count but not at one of the stops, for example, while walking between stops.",,,,,,,,,,,,,,,,,,,,,,,,,
+% Years = The percent of years of the survey that this species was observed,,,,,,,,,,,,,,,,,,,,,,,,,
+No./yr. = Average number of birds of this species each year,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Column headings for worksheets for each year:,,,,,,,,,,,,,,,,,,,,,,,,,
+Common name (Scienific Name) = name of bird,,,,,,,,,,,,,,,,,,,,,,,,,
+MOU= ,,,,,,,,,,,,,,,,,,,,,,,,,
+"1 through 17 = the observation stops, a number in this cell indicates how many of this species of bird was heard at this stop.",,,,,,,,,,,,,,,,,,,,,,,,,
+# stops = the number of stops where the species of bird was observed,,,,,,,,,,,,,,,,,,,,,,,,,
+total = the number of that species of bird heard during the count,,,,,,,,,,,,,,,,,,,,,,,,,
+"present = a ""p"" in this cell indicates that the bird species was observed during the count, but not at one of the stops",,,,,,,,,,,,,,,,,,,,,,,,,
+Notes= any additional notes made by the data recorder or data entry personnel that yet need to be resolved or added to the database.,,,,,,,,,,,,,,,,,,,,,,,,,
+
+,,,,,,,,,,,,,,,,,,,,,,,,,
+Data entry instructions,,,,,,,,,,,,,,,,,,,,,,,,,
+The species list must be the exact same and in alphabetical order for each year,,,,,,,,,,,,,,,,,,,,,,,,,
+"Each column in ""main"" pulls from the corresponding cells from that year's datasheet",,,,,,,,,,,,,,,,,,,,,,,,,
+"It reports the total number of a species if that number is not 0, p if that bird is only present, and 0 if there were 0 total and the bird was not present",,,,,,,,,,,,,,,,,,,,,,,,,
+"The % of years counts the cells for that species and tallies them up if they are not = 0 (so p and any other number get counted as present). This formula needs to be changed every year to divide by the appropriate number (after 19 bird counts, dividing by .19, after 20, dividing by .2, etc) and to include all columns",,,,,,,,,,,,,,,,,,,,,,,,,
+The no./yr formula must be changed every year to include all years and divide by the updated number of bird counts,,,,,,,,,,,,,,,,,,,,,,,,,
+No. of species observed counts all columns where the total is not 0,,,,,,,,,,,,,,,,,,,,,,,,,
+The formulas can be reused every year. Just change the name of the sheet and the columns based on that year's datasheet,,,,,,,,,,,,,,,,,,,,,,,,,
+"Use the format and forumlas from the most recent year possible to ensure consistency (i.e., in 2023, use the data sheet format and formulas in main from 2022)",,,,,,,,,,,,,,,,,,,,,,,,,
+"If a new species is added to the list, go back and add it for every year and realphabetize",,,,,,,,,,,,,,,,,,,,,,,,,
+"In general, do not change sheets from previous years because the formulas rely on those data",,,,,,,,,,,,,,,,,,,,,,,,,
+
+"Starting in 2024, we started making Merlin recordings at each stop. We are adding the recordings to the shared dropbox and writing down the species associated with each recording. In this excel sheet, we are adding all species recorded by merlin in a second, separate column for each stop. ",,,,,,,,,,,,,,,,,,,,,,,,,
