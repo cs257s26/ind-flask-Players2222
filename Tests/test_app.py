@@ -29,7 +29,7 @@ class test_app(unittest.TestCase):
         """Test the popular stop route."""
         response = self.app.get('/popular/2000')
         self.assertEqual(response.status_code, 200)
-        self.assertIn(b"The most popular stop", response.data)
+        self.assertIn(b"The most popular stop in 2000 was stop 3.", response.data)
 
     def test_invalid_sighting_name(self):
         response = self.app.get('/sightings/American Crow/1/2003')
