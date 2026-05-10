@@ -1,0 +1,136 @@
+common_name,scientific_name,genus,species,family,stop1,stop2,stop3,stop4,stop5,stop6,stop7,stop8,stop9,stop10,stop11,stop12,stop13,stop14,stop15,stop16,stop17,total_count,observation_year
+Alder Flycatcher,Empidonax alnorum,Empidonax,alnorum,Tyrannidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+American Crow,Corvus brachyrhynchos,Corvus,brachyrhynchos,Corvidae,2,0,0,0,3,5,0,0,3,1,0,0,1,1,1,1,1,19,2013
+American Goldfinch,Carduelis tristis,Carduelis,tristis,Fringillidae,0,0,0,1,0,1,0,0,1,1,0,1,1,1,1,2,0,10,2013
+American Kestrel,Falco sparverius,Falco,sparverius,Falconidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+American Redstart,Setophaga ruticilla,Setophaga,ruticilla,Parulidae,4,0,2,0,0,0,1,0,0,0,1,1,1,1,0,1,0,12,2013
+American Robin,Turdus migratorius,Turdus,migratorius,Turdidae,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,1,0,4,2013
+American White Pelican,Pelecanus erythrorhynchos,Pelecanus,erythrorhynchos,Pelecanidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Bald Eagle,Haliaeetus leucocephalus,Haliaeetus,leucocephalus,Accipitridae,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2013
+Baltimore oriole,Icterus galbula,Icterus,galbula,Icteridae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Barn Swallow,Hirundo rustica,Hirundo,rustica,Hirundinidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Bay-breasted Warbler,Dendroica castanea,Dendroica,castanea,Parulidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Belted Kingfisher,Ceryle alcyon,Ceryle,alcyon,Alcedinidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Black Tern,Chlidonias niger,Chlidonias,niger,Laridae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Black-and-white Warbler,Mniotilta varia,Mniotilta,varia,Parulidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Blackburnian Warbler,Dendroica fusca,Dendroica,fusca,Parulidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Black-capped Chickadee,Parus atricapillus,Parus,atricapillus,Paridae,2,0,0,0,0,1,0,2,0,0,0,2,0,1,0,1,0,9,2013
+Blackpoll Warbler,Dendroica striata,Dendroica,striata,Parulidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Black-throated Green Warbler,Dendroica virens,Dendroica,virens,Parulidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Blue Jay,Cyanocitta cristata,Cyanocitta,cristata,Corvidae,3,0,0,0,0,1,0,2,0,3,2,2,0,2,0,0,0,15,2013
+Blue-gray Gnatcatcher,Polioptila caerula,Polioptila,caerula,Polioptilidae,2,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,4,2013
+Blue-headed [solitary] Vireo,Vireo solitarius,Vireo,solitarius,Vireonidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Blue-winged Teal,Anas discors,Anas,discors,Anatidae,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,2013
+Blue-winged Warbler,Vermivora pinus,Vermivora,pinus,Parulidae,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,3,2013
+Bobolink,Dolichonyx oryzivorus,Dolichonyx,oryzivorus,Icteridae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Broad-winged Hawk,Buteo playpterus,Buteo,playpterus,Accipitridae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Brown Thrasher,Toxostoma rufum,Toxostoma,rufum,Mimidae,0,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,3,2013
+Brown-headed Cowbird,Molothrus ater,Molothrus,ater,Icteridae,0,0,1,3,2,0,0,0,0,0,0,0,0,3,0,0,1,10,2013
+Canada Goose,Branta canadensis,Branta,canadensis,Anatidae,1,0,3,2,2,2,0,0,0,0,0,0,0,0,0,0,0,10,2013
+Canada Warbler,Wilsonia canadensis,Wilsonia,canadensis,Parulidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Cape May Warbler,Dendroica tigrina,Dendroica,tigrina,Parulidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Caspian tern,Hydroprogne caspia,Hydroprogne,caspia,Laridae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Cedar Waxwing,Bombycilla cedrorum,Bombycilla,cedrorum,Bombycillidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Chestnut-sided Warbler,Dendroica pensylvanica,Dendroica,pensylvanica,Parulidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Chimney Swift,Chaetura pelagica,Chaetura,pelagica,Apodidae,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,2,2013
+Chipping Sparrow,Spizella passerina,Spizella,passerina,Emberizidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Clay-colored Sparrow,Spizella pallida,Spizella,pallida,Emberizidae,0,0,0,2,2,2,1,0,0,0,0,0,0,0,1,0,0,8,2013
+Cliff Swallow,Petrochelidon pyrrhonota,Petrochelidon,pyrrhonota,Hirundinidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Common Grackle,Quiscalus quiscula,Quiscalus,quiscula,Icteridae,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,4,2013
+Common Yellowthroat,Geothlypis trichas,Geothlypis,trichas,Parulidae,1,0,1,2,1,0,2,1,0,0,0,1,0,1,1,1,2,14,2013
+Connecticut Warbler,Oporornis agilis,Oporornis,agilis,Parulidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Cooper's Hawk,Accipiter cooperii,Accipiter,cooperii,Accipitridae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Downy Woodpecker,Picoides pubescens,Picoides,pubescens,Picidae,0,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,3,2013
+Eastern Bluebird,Sialia sialis,Sialia,sialis,Turdidae,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,2,2013
+Eastern Kingbird,Tyrannus tyrannus,Tyrannus,tyrannus,Tyrannidae,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,2,2013
+Eastern Meadowlark,Sturnella magna,Sturnella,magna,Icteridae,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,3,2013
+Eastern Phoebe,Sayornis phoebe,Sayornis,phoebe,Tyrannidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Eastern Towhee,Pipilo erythrophthalmus,Pipilo,erythrophthalmus,Emberizidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Eastern Wood-pewee,Contopus virens,Contopus,virens,Tyrannidae,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2013
+European Starling,Sturnus vulgaris,Sturnus,vulgaris,Sturnidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Evening Grosbeak,Coccothraustes vespertinus,Coccothraustes,vespertinus,Fringillidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Field Sparrow,Spizella pusilla,Spizella,pusilla,Emberizidae,0,0,0,2,2,2,1,0,3,2,0,0,0,0,1,0,0,13,2013
+Golden Eagle,Aquila chrysaetos,Aquila,chrysaetos,Accipitridae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Golden-winged Warbler,Vermivora chrysoptera,Vermivora,chrysoptera,Parulidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Grasshopper Sparrow,Ammodramus savannarum,Ammodramus,savannarum,Emberizidae,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2013
+Gray Catbird,Dumetella caroliniensis,Dumetella,caroliniensis,Mimidae,0,1,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,4,2013
+Gray-cheeked Thrush,Catharus minimus,Catharus,minimus,Turdidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Great Blue Heron,Ardea herodius,Ardea,herodius,Ardeidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Great Crested Flycatcher,Myiarchus crinitus,Myiarchus,crinitus,Tyrannidae,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2013
+Great Egret,Ardea alba,Ardea,alba,Ardeidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Great Horned Owl,Bubo virginianus,Bubo,virginianus,Strigidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Green Heron,Butorides virescens,Butorides,virescens,Ardeidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Hairy Woodpecker,Picoides villosus,Picoides,villosus,Picidae,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,2013
+Henslow's Sparrow,Ammodramus henslowii,Ammodramus,henslowii,Emberizidae,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,2013
+Hermit Thrush,Catharus guttatus,Catharus,guttatus,Turdidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+House Finch,Carpodacus mexicanus,Carpodacus,mexicanus,Fringillidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+House Sparrow,Passer domesticus,Passer,domesticus,Passeridae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+House Wren,Troglodytes aedon,Troglodytes,aedon,Troglodytidae,0,0,2,0,0,0,0,1,0,1,1,0,1,0,1,1,2,10,2013
+Indigo Bunting,Passerina cyanea,Passerina,cyanea,Cardinalidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Killdeer,Charadrius vociferus,Charadrius,vociferus,Charadriidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Least Flycatcher,Empidonax minimus,Empidonax,minimus,Tyrannidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Magnolia Warbler,Dendroica magnolia,Dendroica,magnolia,Parulidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Mallard,Anas platyrhynchos,Anas,platyrhynchos,Anatidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Marsh Wren,Cistothorus palustris,Cistothorus,palustris,Troglodytidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Mourning Dove,Zenaida macroura,Zenaida,macroura,Columbidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Mourning Warbler,Oporornis philadelphia,Oporornis,philadelphia,Parulidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Nashville Warbler,Vermivora ruficapilla,Vermivora,ruficapilla,Parulidae,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2013
+Northern Cardinal,Cardinalis cardinalis,Cardinalis,cardinalis,Cardinalidae,2,1,1,1,1,1,1,0,0,1,0,1,0,0,1,1,1,13,2013
+Northern Flicker,Colaptes auratus,Colaptes,auratus,Picidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Northern Harrier,Circus cyaneus,Circus,cyaneus,Accipitridae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Northern Parula,Parula americana,Parula,americana,Parulidae,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2013
+Northern Rough-winged Swallow,Stelgidopteryx serripennis,Stelgidopteryx,serripennis,Hirundinidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Northern Waterthrush,Seirus noveboracensis,Seirus,noveboracensis,Parulidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Olive-sided Flycatcher,Contopus cooperi,Contopus,cooperi,Tyrannidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Orange-crowned Warbler,Vermivora celata,Vermivora,celata,Parulidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Orchard oriole,Icterus spurius,Icterus,spurius,Icteridae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Osprey,Pandion haliaetus,Pandion,haliaetus,Pandionidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Ovenbird,Seirus aurocapillus,Seirus,aurocapillus,Parulidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Palm Warbler,Dendroica palmarum,Dendroica,palmarum,Parulidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Peregrine Falcon,Falco peregrinus,Falco,peregrinus,Falconidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Philadelphia Vireo,Vireo philadelphicus,Vireo,philadelphicus,Vireonidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Pileated Woodpecker,Dryocopus pileatus,Dryocopus,pileatus,Picidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Red-bellied Woodpecker,Melanerpes carolinus,Melanerpes,carolinus,Picidae,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,3,2013
+Red-eyed Vireo,Vireo olivaceus,Vireo,olivaceus,Vireonidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Red-headed Woodpecker,Melanerpes erythrocephalus,Melanerpes,erythrocephalus,Picidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Red-Tailed Hawk,Buteo jamaicensis,Buteo,jamaicensis,Accipitridae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Red-winged Blackbird,Agelaius tricolor,Agelaius,tricolor,Icteridae,0,0,0,1,3,2,8,4,0,0,0,0,0,0,0,0,0,18,2013
+Ring-billed Gull,Larus delawarensis,Larus,delawarensis,Laridae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Ring-necked Pheasant,Phasianus colchicus,Phasianus,colchicus,Phasianidae,0,0,0,0,2,2,2,3,2,2,0,0,1,0,1,0,0,15,2013
+Rock Pigeon,Columba livia,Columba,livia,Columbidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Rose-breasted Grosbeak,Pheucticus ludovicianus,Pheucticus,ludovicianus,Cardinalidae,0,1,1,1,0,0,0,1,2,1,0,1,0,0,0,1,0,9,2013
+Ruby-crowned Kinglet,Regulus calendula,Regulus,calendula,Regulidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Ruby-Throated Hummingbird,Archilocus colubris,Archilocus,colubris,Trochilidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Sandhill Crane,Antigone canadensis,Antigone,canadensis,Gruidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Savannah Sparrow,Passerculus sandwichensis,Passerculus,sandwichensis,Emberizidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Scarlet Tanager,Piranga olivacea,Piranga,olivacea,Cardinalidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Sedge Wren,Cistothorus platensis,Cistothorus,platensis,Troglodytidae,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,2,2013
+Solitary Sandpiper,Tringa solitaria,Tringa,solitaria,Scolopacidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Song Sparrow,Melospiza melodia,Melospiza,melodia,Emberizidae,2,0,1,1,1,3,1,1,0,0,0,0,0,0,1,0,1,12,2013
+Sora,Porzana carolina,Porzana,carolina,Rallidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Spotted Sandpiper,Actitis macularia,Actitis,macularia,Scolopacidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Swainson’s Thrush,Catharus ustulatus,Catharus,ustulatus,Turdidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Swamp Sparrow,Melospiza georgiana,Melospiza,georgiana,Emberizidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Tennesee Warbler,Vermivora peregrina,Vermivora,peregrina,Parulidae,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,3,0,5,2013
+Tree Swallow,Tachycineta bicolor,Tachycineta,bicolor,Hirundinidae,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,2013
+Tufted Titmouse,Baeolophus bicolor,Baeolophus,bicolor,Paridae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Turkey Vulture,Cathartes aura,Cathartes,aura,Cathartidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Veery,Catharus fuscescens,Catharus,fuscescens,Turdidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Vesper Sparrow,Pooecetes gramineus,Pooecetes,gramineus,Emberizidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Warbling Vireo,Vireo gilvus,Vireo,gilvus,Vireonidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+White-breasted Nuthatch,Sitta carolinensis,Sitta,carolinensis,Sittidae,0,0,0,0,0,0,0,1,1,0,1,0,0,0,1,1,0,5,2013
+White-Crowned Sparrow,Zonotrichia leucophrys,Zonotrichia,leucophrys,Emberizidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+White-throated Sparrow,Zonotrichia albicollis,Zonotrichia,albicollis,Emberizidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Wild Turkey,Meleagris gallopavo,Meleagris,gallopavo,Phasianidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Willow Flycatcher,Empidonax traillii,Empidonax,traillii,Tyrannidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Wilson's Warbler,Wilsonia pusilla,Wilsonia,pusilla,Parulidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Wood Duck,Aix sponsa,Aix,sponsa,Anatidae,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,2,4,2013
+Wood Thrush,Hylocichla mustelina,Hylocichla,mustelina,Turdidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Yellow Warbler,Dendroica petechia,Dendroica,petechia,Parulidae,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,3,2013
+Yellow-bellied Flycatcher,Empidonax flaviventris,Empidonax,flaviventris,Tyrannidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Yellow-bellied Sapsucker,Sphyrapicus varius,Sphyrapicus,varius,Picidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Yellow-headed Blackbird,Xanthocephalus xanthocephalus,Xanthocephalus,xanthocephalus,Icteridae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Yellow-rumped Warbler,Dendroica coronata,Dendroica,coronata,Parulidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+Yellow-throated Vireo,Vireo flavifrons,Vireo,flavifrons,Vireonidae,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2013
+number of species per stop,,,,,12,10,11,12,13,14,11,11,7,10,7,8,7,8,13,11,9,0,2013
+number of birds counted per stop,,,,,22,13,15,18,24,26,21,18,14,14,10,10,7,11,13,14,13,263,2013
