@@ -1,5 +1,5 @@
 import psycopg2 as ps
-import psqlConfig as config
+import myconfig as config
 
 class DataSource:
     def __init__(self):
