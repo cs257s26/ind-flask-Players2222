@@ -28,6 +28,6 @@ Describe the process by which you decided how to represent your data in your dat
 
 
 Explain how each of your queries represents a user story. What does the query do, and how does this match all or part of a user story?
-    The first query relates to the user story of a person wanting to know if a bird is increasing or declining in their population over the years. The query gets the total count if the birds in given years and shows all of them. This means that you can see how the bird count can rise and drop over time.
+    The first query relates to the user story of a person wanting to know how many specific birds there are at a specific stop given a specific year. This makes it simiar to the get_sigitings in the app.py. This query intakes the birdname, stop, and year and gives a numeric output
 
-    The second query relates to the user story of a person who wants to know what birds are most popular in a given year. This query gets the total count of all the birds and ranks it by the largest amount to the lowest amount. This way, the user can see what are the most popular birds are as they can do something like top 10 most popular birds.
+    The second query relates to the user story of a person who wants to know what the most popular stop in a given year is. It is similar to get_popular_stop in app.py. This query intakes the year option and outputs the most popular stop in the year. 

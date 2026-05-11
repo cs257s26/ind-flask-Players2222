@@ -18,34 +18,10 @@ class DataSource:
             print("Connection error: ", e)
             exit()
 
-    def get_species_trend(self, species_name):
-        """User Story: Track population change over time."""
-        if not species_name: 
-            return []
-        try:
-            cursor = self.connection.cursor()
-            query = "SELECT observation_year, total_count FROM birds WHERE common_name ILIKE %s ORDER BY observation_year;"
-            cursor.execute(query, (f"%{species_name}%",))
-            return cursor.fetchall()
-        except Exception as e:
-            print(f"Trend query error: {e}")
-            return None
-
-    def get_top_birds_by_year(self, year, limit=10):
-        """User Story: Find most popular birds in a year."""
-        try:
-            cursor = self.connection.cursor()
-            query = "SELECT common_name, total_count FROM birds WHERE observation_year = %s ORDER BY total_count DESC LIMIT %s;"
-            cursor.execute(query, (year, limit))
-            return cursor.fetchall()
-        except Exception as e:
-            print(f"Ranking query error: {e}")
-            return None
-
     def get_sightings_by_location(self, bird_name, stop, year):
         """
         User Story: Find sightings for a bird at a specific stop.
-        This now queries the numeric 'stopX' columns directly.
+        This now queries the numeric 'stop#' columns directly.
         """
         try:
             cursor = self.connection.cursor()
