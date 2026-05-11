@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask
 from datasource import DataSource
 
 app = Flask(__name__)
@@ -31,4 +31,4 @@ def get_popular_stop(year):
     return f"No data found for {year}."
 
 if __name__ == '__main__':
-    app.run(debug=False) # Set to False for production/Stearns
+    app.run()

@@ -1,5 +1,5 @@
 import psycopg2 as ps
-import myconfig as config
+import psqlConfig as config
 
 class DataSource:
     def __init__(self):
@@ -53,7 +53,9 @@ class DataSource:
             
             cursor.execute(query, (f"%{bird_name}%", year))
             result = cursor.fetchone()
-            return result[0] if result else 0
+            if result is None:
+                return None # Bird/Year combo doesn't exist
+            return result[0]
         except Exception as e:
             print(f"Location query error: {e}")
             return None
@@ -65,7 +67,6 @@ class DataSource:
         """
         try:
             cursor = self.connection.cursor()
-            # We construct a query that sums each stop column for the given year
             stops = [f"SUM(stop{i})" for i in range(1, 18)]
             query = f"SELECT {', '.join(stops)} FROM birds WHERE observation_year = %s;"
             
