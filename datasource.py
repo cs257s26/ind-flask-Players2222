@@ -3,10 +3,14 @@ import psqlConfig as config
 
 class DataSource:
     def __init__(self):
+        """Initializes the connection to the Stearns PostgreSQL server."""
         self.connection = self.connect()
 
     def connect(self):
-        """ Connects to the database using credentials from psqlConfig."""
+        """
+        Establishes a connection to the database using credentials from psqlConfig.
+        Note: This is set to localhost for use on the Stearns terminal.
+        """
         try:
             connection = ps.connect(
                 database=config.database, 
@@ -19,53 +23,68 @@ class DataSource:
             print("Connection error: ", e)
             exit()
 
-    def get_total_count_by_species(self, common_name):
+    def get_species_trend(self, species_name):
         """
-        Q1: User Story - As a researcher, I want to see the total observations for a specific bird across all years.
+        User Story: As a conservationist, I want to track how the population of a specific bird species has changed over time.
         """
         try:
             cursor = self.connection.cursor()
-            # We use ILIKE for case-insensitive matching
-            query = "SELECT observation_year, total_count FROM birds WHERE common_name ILIKE %s ORDER BY observation_year;"
-            cursor.execute(query, (common_name,))
+            query = """
+                SELECT observation_year, total_count 
+                FROM birds 
+                WHERE common_name ILIKE %s 
+                ORDER BY observation_year;
+            """
+            cursor.execute(query, (species_name,))
             return cursor.fetchall()
         except Exception as e:
-            print("Query 1 error: ", e)
+            print("Something went wrong with the trend query: ", e)
             return None
 
-    def get_top_birds_in_year(self, year, limit=10):
+    def get_top_birds_by_year(self, year, limit=10):
         """
-        Q2: User Story - As a birdwatcher, I want to know which birds were most commonly sighted in a specific year.
+        User Story: As a casual birdwatcher, I want to know which birds were most commonly sighted in a specific year.
         """
         try:
             cursor = self.connection.cursor()
-            query = "SELECT common_name, total_count FROM birds WHERE observation_year = %s ORDER BY total_count DESC LIMIT %s;"
+            query = """
+                SELECT common_name, total_count 
+                FROM birds 
+                WHERE observation_year = %s 
+                ORDER BY total_count DESC 
+                LIMIT %s;
+            """
             cursor.execute(query, (year, limit))
             return cursor.fetchall()
         except Exception as e:
-            print("Query 2 error: ", e)
+            print("Something went wrong with the ranking query: ", e)
             return None
 
     def close(self):
-        self.connection.close()
+        """Closes the database connection."""
+        if self.connection:
+            self.connection.close()
 
 def main():
     ds = DataSource()
 
-    # Test Q1: Trend for American Crows
-    print("--- Trend for American Crow ---")
-    crow_data = ds.get_total_count_by_species("American Crow")
-    if crow_data:
-        for row in crow_data:
-            print(f"Year: {row[0]}, Count: {row[1]}")
+    # Test Q1: Population trend for American Crows
+    print("--- 25-Year Trend: American Crow ---")
+    crow_results = ds.get_species_trend("American Crow")
+    if crow_results:
+        for row in crow_results:
+            print(f"Year: {row[0]} | Count: {row[1]}")
+    else:
+        print("No data found or query failed.")
 
-    print("\n--- Top 5 Birds in 2024 ---")
-    # Test Q2: Top birds in 2024
-    top_birds = ds.get_top_birds_in_year(2024, 5)
-    if top_birds:
-        for row in top_birds:
-            print(f"Bird: {row[0]}, Total: {row[1]}")
-
+    # Test Q2: Top 5 birds sighted in 2024
+    print("\n--- Top 5 Bird Sightings in 2024 ---")
+    top_2024 = ds.get_top_birds_by_year(2024, 5)
+    if top_2024:
+        for row in top_2024:
+            print(f"Species: {row[0]:<25} | Total: {row[1]}")
+    else:
+        print("No data found or query failed.")
     ds.close()
 
 if __name__ == "__main__":
