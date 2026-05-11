@@ -11,7 +11,7 @@ class DataSource:
                 database=config.database, 
                 user=config.user, 
                 password=config.password, 
-                host="localhost"
+                host = 'localhost'
             )
             return connection
         except Exception as e:

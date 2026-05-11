@@ -24,6 +24,8 @@ for year: 2000-2025
 Describe the process by which you decided how to represent your data in your database. Include why you selected the number of tables you did, how you decided what data to include and exclude, why you selected the datatypes you did, and what the primary keys are.
     The data set I included just cleaned the sata a bit more, I wanted all the stops and what birds landed in those spots. The main things I did were combining all of the data years into one large csv so that the sql can store the entire table. Additionally, I cleaned the name with it used to have scientific and common in the same line into just common and just scientific as that way I think is easier to search for. I chose the datatypes that I did because that is what the example create_table had so I just expanded on it.
 
+    Copy command :\copy birds FROM 'Data/combined_bird_observations.csv' DELIMITER ',' CSV HEADER;
+
 
 Explain how each of your queries represents a user story. What does the query do, and how does this match all or part of a user story?
     The first query relates to the user story of a person wanting to know if a bird is increasing or declining in their population over the years. The query gets the total count if the birds in given years and shows all of them. This means that you can see how the bird count can rise and drop over time.
