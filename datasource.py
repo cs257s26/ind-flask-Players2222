@@ -20,7 +20,8 @@ class DataSource:
 
     def get_species_trend(self, species_name):
         """User Story: Track population change over time."""
-        if not species_name: return []
+        if not species_name: 
+            return []
         try:
             cursor = self.connection.cursor()
             query = "SELECT observation_year, total_count FROM birds WHERE common_name ILIKE %s ORDER BY observation_year;"
