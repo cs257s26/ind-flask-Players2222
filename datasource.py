@@ -20,8 +20,7 @@ class DataSource:
 
     def get_sightings_by_location(self, bird_name, stop, year):
         """
-        User Story: Find sightings for a bird at a specific stop.
-        This now queries the numeric 'stop#' columns directly.
+        User Story: Find sightings for a bird at a specific stop. This now queries the 'stop#' columns directly.
         """
         try:
             cursor = self.connection.cursor()
@@ -31,7 +30,7 @@ class DataSource:
             cursor.execute(query, (f"%{bird_name}%", year))
             result = cursor.fetchone()
             if result is None:
-                return None # Bird/Year combo doesn't exist
+                return None
             return result[0]
         except Exception as e:
             print(f"Location query error: {e}")
@@ -39,8 +38,7 @@ class DataSource:
 
     def get_most_popular_stop(self, year):
         """
-        User Story: As a researcher, I want to identify which geographic 
-        location (stop) had the highest bird activity in a given year.
+        User Story: As a researcher, I want to identify which stop had the highest bird activity in a given year.
         """
         try:
             cursor = self.connection.cursor()
@@ -51,9 +49,7 @@ class DataSource:
             row = cursor.fetchone()
             
             if row:
-                # Find the index of the maximum sum
                 max_val = max(row)
-                # The stop number is index + 1
                 return row.index(max_val) + 1
             return None
         except Exception as e:
