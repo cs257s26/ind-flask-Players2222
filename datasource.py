@@ -23,6 +23,15 @@ class DataSource:
         User Story: Find sightings for a bird at a specific stop. This now queries the 'stop#' columns directly.
         """
         try:
+            stop_num = int(stop)
+            if not (1 <= stop_num <= 17):
+                print(f"Validation error: Stop {stop} is out of bounds (Must be 1-17).")
+                return None
+        except (ValueError, TypeError):
+            print(f"Validation error: Stop '{stop}' is not a valid integer.")
+            return None
+        
+        try:
             cursor = self.connection.cursor()
             column_name = f"stop{stop}"
             query = f"SELECT {column_name} FROM birds WHERE common_name ILIKE %s AND observation_year = %s;"
@@ -49,7 +58,9 @@ class DataSource:
             row = cursor.fetchone()
             
             if row:
-                max_val = max(row)
+                if all(val is None for val in row):
+                    return None
+                max_val = max([val for val in row if val is not None])
                 return row.index(max_val) + 1
             return None
         except Exception as e:
@@ -59,3 +70,34 @@ class DataSource:
     def close(self):
         if self.connection:
             self.connection.close()
+
+if __name__ == '__main__':
+    print("Initializing DataSource and testing database connection...")
+    ds = DataSource()
+    
+    #Test user story 1
+    test_bird = "Robin"
+    test_stop = 3
+    test_year = 2023
+    print(f"\n--- Testing User Story 1: Sightings for '{test_bird}' at Stop {test_stop} in {test_year} ---")
+    sightings = ds.get_sightings_by_location(test_bird, test_stop, test_year)
+    print(f"Result: {sightings} sightings found.")
+    
+    #Test user story 1 when bird doesn't exist
+    print(f"Testing corner case (Fake Bird Name):")
+    fake_sightings = ds.get_sightings_by_location("NotABorealBird123", test_stop, test_year)
+    print(f"Result for fake bird: {fake_sightings} (Expected: None)")
+
+    #Test user story 2
+    print(f"\n--- Testing User Story 2: Most popular stop in {test_year} ---")
+    popular_stop = ds.get_most_popular_stop(test_year)
+    print(f"Result: Stop {popular_stop} was the most popular.")
+    
+    #Test user story 2 when year has no data
+    print(f"Testing corner case (Year 1776):")
+    fake_year_stop = ds.get_most_popular_stop(1776)
+    print(f"Result for year 1776: {fake_year_stop} (Expected: None)")
+
+    #close
+    ds.close()
+    print("\nDatabase connection closed successfully. Test complete!")
