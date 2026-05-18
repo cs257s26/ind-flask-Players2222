@@ -11,7 +11,7 @@ class DataSource:
                 database=config.database, 
                 user=config.user, 
                 password=config.password, 
-                host = 'localhost'
+                host='localhost'
             )
             return connection
         except Exception as e:
@@ -20,7 +20,7 @@ class DataSource:
 
     def get_sightings_by_location(self, bird_name, stop, year):
         """
-        User Story: Find sightings for a bird at a specific stop. This now queries the 'stop#' columns directly.
+        User Story: Find sightings for a bird at a specific stop.
         """
         try:
             stop_num = int(stop)
@@ -72,7 +72,7 @@ class DataSource:
             self.connection.close()
 
 if __name__ == '__main__':
-    print("Initializing DataSource and testing database connection...")
+    print("Initializing DataSource and testing")
     ds = DataSource()
     
     #Test user story 1
