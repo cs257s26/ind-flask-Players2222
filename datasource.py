@@ -33,7 +33,7 @@ class DataSource:
         
         try:
             cursor = self.connection.cursor()
-            column_name = f"stop{stop}"
+            column_name = f"stop{stop_num}"
             query = f"SELECT {column_name} FROM birds WHERE common_name ILIKE %s AND observation_year = %s;"
             
             cursor.execute(query, (f"%{bird_name}%", year))
@@ -82,6 +82,10 @@ if __name__ == '__main__':
     print(f"\n--- Testing User Story 1: Sightings for '{test_bird}' at Stop {test_stop} in {test_year} ---")
     sightings = ds.get_sightings_by_location(test_bird, test_stop, test_year)
     print(f"Result: {sightings} sightings found.")
+
+    print(f"\nTesting injection/boundary corner case (Stop '99'):")
+    bad_stop_sightings = ds.get_sightings_by_location(test_bird, 99, test_year)
+    print(f"Result for stop 99: {bad_stop_sightings} (Expected: None)")
     
     #Test user story 1 when bird doesn't exist
     print(f"Testing corner case (Fake Bird Name):")
