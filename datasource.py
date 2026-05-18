@@ -79,11 +79,11 @@ if __name__ == '__main__':
     test_bird = "Robin"
     test_stop = 3
     test_year = 2023
-    print(f"\n--- Testing User Story 1: Sightings for '{test_bird}' at Stop {test_stop} in {test_year} ---")
+    print(f"\n--- Testing US 1: Sightings for '{test_bird}' at Stop {test_stop} in {test_year} ---")
     sightings = ds.get_sightings_by_location(test_bird, test_stop, test_year)
     print(f"Result: {sightings} sightings found.")
 
-    print(f"\nTesting injection/boundary corner case (Stop '99'):")
+    print(f"\nTesting edgecase (Stop 99):")
     bad_stop_sightings = ds.get_sightings_by_location(test_bird, 99, test_year)
     print(f"Result for stop 99: {bad_stop_sightings} (Expected: None)")
     
@@ -93,15 +93,15 @@ if __name__ == '__main__':
     print(f"Result for fake bird: {fake_sightings} (Expected: None)")
 
     #Test user story 2
-    print(f"\n--- Testing User Story 2: Most popular stop in {test_year} ---")
+    print(f"\n--- Testing US 2: Most popular stop in {test_year} ---")
     popular_stop = ds.get_most_popular_stop(test_year)
     print(f"Result: Stop {popular_stop} was the most popular.")
     
     #Test user story 2 when year has no data
-    print(f"Testing corner case (Year 1776):")
+    print(f"Testing edgecase (Year 1776):")
     fake_year_stop = ds.get_most_popular_stop(1776)
     print(f"Result for year 1776: {fake_year_stop} (Expected: None)")
 
     #close
     ds.close()
-    print("\nDatabase connection closed successfully. Test complete!")
+    print("\nDatabase closed. Test complete!")
